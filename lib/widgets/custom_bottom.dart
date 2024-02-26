@@ -11,7 +11,7 @@ class CustomBottom extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       height: 55,
       child: const Center(
-        child: Text('Add',style: TextStyle(color: Colors.black,fontSize: 21,fontWeight: FontWeight.bold),),
+        child: const Text('Add',style: TextStyle(color: Colors.black,fontSize: 21,fontWeight: FontWeight.bold),),
       ),
       decoration: BoxDecoration(
         color: kPrimaryColor,
