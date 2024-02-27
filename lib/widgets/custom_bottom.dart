@@ -3,11 +3,13 @@ import 'package:flutter/material.dart';
 import '../constants.dart';
 
 class CustomBottom extends StatelessWidget {
-  const CustomBottom({super.key});
-
+  const CustomBottom({super.key, this.onTab});
+final void Function()? onTab;
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return GestureDetector(
+      onTap: onTab,
+      child:Container(
       width: MediaQuery.of(context).size.width,
       height: 45,
       child: const Center(
@@ -17,6 +19,6 @@ class CustomBottom extends StatelessWidget {
         color: kPrimaryColor,
         borderRadius: BorderRadius.circular(8),
       ),
-    );
+    ));
   }
 }
