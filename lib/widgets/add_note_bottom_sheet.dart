@@ -11,6 +11,7 @@ class AddNoteBottomSheet extends StatelessWidget {
     return const Padding(
         padding: EdgeInsets.symmetric(horizontal: 16),
         child: SingleChildScrollView(
+
           child: Column(
           children: [
              SizedBox(
@@ -24,8 +25,9 @@ class AddNoteBottomSheet extends StatelessWidget {
               hintText: 'Content',
               maxLines: 5,
             ),
-            SizedBox(height: 32,),
+            SizedBox(height: 60,),
             CustomBottom(),
+            SizedBox(height: 30,)
           ],
     ),),);
   }

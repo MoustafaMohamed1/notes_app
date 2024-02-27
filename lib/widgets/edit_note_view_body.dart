@@ -14,12 +14,13 @@ class EditNoteViewBody extends StatelessWidget {
             SizedBox(height: 50),
             CustomAppBar(
               title: 'Edit Notes',
+
               icon: Icons.check,
             ),
             SizedBox(
               height: 50,
             ),
-            CustomTextfield(hintText: 'Tite'),
+            CustomTextfield(hintText: 'Title'),
             SizedBox(
               height: 18,
             ),

@@ -9,7 +9,7 @@ class CustomBottom extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: MediaQuery.of(context).size.width,
-      height: 55,
+      height: 45,
       child: const Center(
         child: const Text('Add',style: TextStyle(color: Colors.black,fontSize: 21,fontWeight: FontWeight.bold),),
       ),

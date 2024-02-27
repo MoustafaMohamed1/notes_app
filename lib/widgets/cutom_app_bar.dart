@@ -11,6 +11,7 @@ class CustomAppBar extends StatelessWidget {
     return  Row(
       children: [
        const Text('Notes',style:  TextStyle(fontSize: 28,),),
+        Spacer(),
         CustomIcon(icon:icon ,),
       ],
     );
